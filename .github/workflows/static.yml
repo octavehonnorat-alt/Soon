@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: 'https://github.com/octavehonnorat-alt/Soon/blob/877eaf02fd230dbd3f0ec1d76a5b6bdf0c9d57d3/rook_river_ultra_minimal_coming_soon.html'
+          path: 'octavehonnorat-alt/Soon/blob/877eaf02fd230dbd3f0ec1d76a5b6bdf0c9d57d3/rook_river_ultra_minimal_coming_soon.html'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
